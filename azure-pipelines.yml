@@ -34,3 +34,14 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'Challenge1'
     publishLocation: 'Container'
+
+- task: AzureFileCopy@3
+  inputs:
+    SourcePath: '$(build.artifactStagingDirectory)\\WebApp.zip'
+    azureSubscription: 'HackthonTeam4'
+    Destination: 'AzureVMs'
+    storage: 'hackathonteam4diag'
+    resourceGroup: 'HACKATHON-TEAM4'
+    vmsAdminUserName: 'Team4'
+    vmsAdminPassword: 'z72)g*h?f9wvQ]JWEd48'
+    TargetPath: 'C:\Application'
