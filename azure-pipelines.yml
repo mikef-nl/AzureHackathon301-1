@@ -42,6 +42,7 @@ steps:
     Destination: 'AzureVMs'
     storage: 'hackathonteam4diag'
     resourceGroup: 'HACKATHON-TEAM4'
+    MachineNames: 'challenge-1'
     vmsAdminUserName: 'Team4'
     vmsAdminPassword: 'z72)g*h?f9wvQ]JWEd48'
-    TargetPath: 'C:\\Application'
+    TargetPath: 'C:\Application'
