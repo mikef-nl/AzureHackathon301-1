@@ -44,4 +44,4 @@ steps:
     resourceGroup: 'HACKATHON-TEAM4'
     vmsAdminUserName: 'Team4'
     vmsAdminPassword: 'z72)g*h?f9wvQ]JWEd48'
-    TargetPath: 'C:\Application'
+    TargetPath: 'C:\\Application'
